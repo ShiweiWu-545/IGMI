@@ -1,0 +1,5 @@
+Bio==1.7.1
+easydict==1.13
+numpy==2.2.5
+pandas==2.2.3
+torch==2.7.0
