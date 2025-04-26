@@ -13,7 +13,7 @@
 
 # Overview
 
-**IGMI** a deep-learning framework designed to uncover the functional impacts of mutations on the affinities of PPIs. This framework differs from other transformer-based models typically applied to tasks such as image recognition and protein structure prediction. Our framework consists of two main components: a dynamic residue selection strategy that captures information on complete affinity changes as input; and a three-pass neural network module called MIDFORMER, which serves as the backbone of IGMI and is used to model the dependencies and information interactions between multi-scale and multi-level features.
+**IGMI** is a novel interpretable graph-based multi-level feature interaction model for mutation impact prediction. IGMI integrates multi-level features, including the 1D sequence distance map layer, 3D structure distance map layer, 3D coordinate layer, and atomic-based side-chain geometric features, to effectively capture the inherent complex dependencies in PPI data, thereby improving the accuracy of ∆∆G predictions. The core of the IGMI architecture lies in two variant network modules based on attention mechanisms. These modules are designed to model the interdependencies and information flow across multidimensional features, including 1D sequence distance maps, 3D structural distance maps, and 3D coordinate features, as well as multi-scale features such as residue- and atomic-based information. By integrating these multidimensional and multi-scale features, IGMI effectively models the intricate relationships between sequence and structural characteristics.
 
 # Requirements
 
