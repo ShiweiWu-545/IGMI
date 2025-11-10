@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:da82a15e13b7163aef0def74f6e4e6fc5d1531269562e557084403ff032e62fb
-size 39
+*.pdb filter=lfs diff=lfs merge=lfs -text
+*.feature filter=lfs diff=lfs merge=lfs -text
+*.fasta filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.region filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.py filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.surface filter=lfs diff=lfs merge=lfs -text
+*.ecod filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text
+
