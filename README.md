@@ -83,8 +83,7 @@ IGMI consists of two core components:
 - seaborn==0.13.2
 - tensorboard==2.20.0
 
-See `requirements.txt` for complete dependency list. Additionally, to complete the environment setup, please download the supplementary file package ([prottrans.zip](https://zenodo.org/records/17563574/files/prottrans.zip?download=1)) from Zenodo, which contains the pre-trained ProtTrans model used for sequence encoding. This file was not uploaded to GitHub due to its large size. After downloading, unzip it and place the extracted folder into the `/IGMI` directory before running any training or evaluation scripts.
-
+See `requirements.txt` for complete dependency list. 
 
 ### Environment Setup
 
@@ -101,7 +100,10 @@ conda activate IGMI
 pip install -r requirements.txt
 ```
 
-The environment setup process takes approximately 10 minutes and has been tested by users with limited computational experience.
+The environment setup process takes approximately 10 minutes and has been successfully tested by users with limited computational experience.
+Additionally, to get the full experience, please download the supplementary file package ([prottrans.zip](https://zenodo.org/records/17563574/files/prottrans.zip?download=1)) from `Zenodo`, which contains the pre-trained ProtTrans model used for sequence encoding.
+This file was not uploaded to GitHub due to its large size.
+After downloading, unzip it and place the extracted folder into the /IGMI directory before running any training or evaluation scripts.
 
 ## Quick Start
 
