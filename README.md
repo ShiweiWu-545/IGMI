@@ -83,7 +83,8 @@ IGMI consists of two core components:
 - seaborn==0.13.2
 - tensorboard==2.20.0
 
-See `requirements.txt` for complete dependency list.
+See `requirements.txt` for complete dependency list. Additionally, to complete the environment setup, please download the supplementary file package ([prottrans.zip](https://zenodo.org/records/17563574/files/prottrans.zip?download=1)) from Zenodo, which contains the pre-trained ProtTrans model used for sequence encoding. This file was not uploaded to GitHub due to its large size. After downloading, unzip it and place the extracted folder into the `/IGMI` directory before running any training or evaluation scripts.
+
 
 ### Environment Setup
 
@@ -153,7 +154,7 @@ ABCD_AHL_TH28R    HL A
 | [skempi_v2_del_S1131](./datasets/skempi_v2_del_S1131.csv)  | 5064 | Independent of the S1131 dataset |
 | [skempi_v2_del_M1707](./datasets/skempi_v2_del_M1707.csv) | 4856 | Independent of the M1707 dataset |
 
-Download the Skempi2 structural database from `Zenodo`, which contains both wild-type and mutant structures. After unzipping, rename the file to `Skempi2_ddg_useful` and place it in the `./IGMI` directory.
+Download the [Skempi2 structural database](https://zenodo.org/records/17563574/files/Skempi2_ddg_useful.zip?download=1) from `Zenodo`, which contains both wild-type and mutant structures. After unzipping, rename the file to `Skempi2_ddg_useful` and place it in the `./IGMI` directory.
 
 ## Data Preprocessing
 
@@ -265,7 +266,7 @@ python get_datapt.py \
   --dataset_name privateDatasets
 ```
 
-Final preprocessing output: `/datasets/Mutant nearby residues/private_datasets.pt`
+The `../Preprocessing/Example` directory contains the structural database for the private dataset, `../Preprocessing/private_datasets.csv` holds the data entries to be indexed, and `private_datasets_yddg.csv` contains the corresponding label values for the indexed entries. Final preprocessing output: `/datasets/Mutant nearby residues/private_datasets.pt`.
 
 ### Training
 
