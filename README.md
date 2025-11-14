@@ -153,7 +153,7 @@ ABCD_AHL_TH28R    HL A
 | [S4169](./datasets/S4169.csv)  | 4,169 | SKEMPI 2.0 subset |
 | [S8338](./datasets/S8338.csv)  | 8,338 | S4169 Add corresponding reverse mutation |
 | [skempi_v2](./datasets/skempi_v2.csv)  | 7085 | Currently the largest manually curated dataset of affinity changes in protein-protein interactions caused by mutations |
-| [skempi_v2_del_S1131](./datasets/skempi_v2_del_S1131.csv)  | 5064 | Independent of the S1131 dataset |
+| [skempi_v2_del_S1131](./datasets/skempi_v2_del_S1131.csv)  | 5062 | Independent of the S1131 dataset |
 | [skempi_v2_del_M1707](./datasets/skempi_v2_del_M1707.csv) | 4856 | Independent of the M1707 dataset |
 
 Download the [Skempi2 structural database](https://zenodo.org/records/17563574/files/Skempi2_ddg_useful.zip?download=1) from `Zenodo`, which contains both wild-type and mutant structures. After unzipping, rename the file to `Skempi2_ddg_useful` and place it in the `./IGMI` directory.
