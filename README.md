@@ -123,12 +123,24 @@ python run_predict.py \
 
 ### Examples
 
+Execute the following command:
 ```bash
 python run_predict.py \
   --wt_path ./data/Example/ABCD_AHL_TH28R/WT_ABCD_AHL_TH28R.pdb \
   --mut_path ./data/Example/ABCD_AHL_TH28R/MUT_ABCD_AHL_TH28R.pdb \
   --proteinA HL \
   --proteinB A
+```
+
+After running, the output is as follows:
+
+```bash
+Residue region information calculation completed!
+Sequence encoding calculation completed!
+100%|███████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 11.91it/s]
+Feature extraction completed!
+DDG: tensor([0.1674], device='cuda:0', grad_fn=<SumBackward1>)
+Positive values indicate a decrease in affinity and negative values indicate an increase in affinity.
 ```
 
 ### More examples
