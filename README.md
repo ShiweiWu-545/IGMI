@@ -341,8 +341,9 @@ If you use this code or method in your research, please cite:
 @article{Wu2025IGMI,
   title={Enhancing Mutation Impact Prediction in Protein-Protein Interactions through Interpretable Graph-Based Multi-Level Feature Interactions},
   author={Wu, Shiwei and Xu, Nan and Xin, Xiaohui and Zhang, Min and Liu, Haoliang and Zhu, Hongjia and Wei, Zhenyu and Zhao, Chengkui and Yu, Lei and Feng, Weixing},
-  note={Manuscript under review},
-  year={2025}
+  journal={Bioinformatics},
+  year={2026},
+  doi={https://doi.org/10.1093/bioinformatics/btag150}
 }
 ```
 
